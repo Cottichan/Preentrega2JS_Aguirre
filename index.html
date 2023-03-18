@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>D'Volcanes Café | Southern Coffee Roasters</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Fonts&Icons-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Parisienne&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/57c422ad63.js" crossorigin="anonymous"></script>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <!--CSS-->
+    <link rel="stylesheet" href="css/final.css">
+
+    <!--SEO-->  
+    <meta name="description" content="Tostaduría de café y café de especialidad en Villarrica">
+    <meta name="keywords" content="café, tostaduría, café de especialidad, café villarrica, café cerca de mí">
+
+    <!--JS-->
+    
+</head>
+<body>
+    <!--Header inicio-->
+<header class="main-header">
+        <div class="header-completo" data-header-sticky style>
+
+    <nav class="site-nav">
+        <div class="navbar">
+            <a class="site-logo" href="/index.html">
+                <img class="site-logo" src="image/logo1.png" alt="D' Volcafe Inicio">    
+            </a>
+        <div class="navbar-collapse" id="navLinks">
+            <div class="site-logo-collapse">
+                <img class="site-logo-c" src="image/logo1.png" alt="D' Volcafe Inicio">
+            </div>
+            <i class="fa1 fa-solid fa-xmark fa-2x" onclick="hideMenu()"></i>
+            <ul class="navbar-nav"> 
+                <li class="nav-item">
+                    <a class="site-nav-link" href="html/nosotros.html">nosotros</a>
+                </li>
+                <li class="nav-item">
+                    <a class="site-nav-link" href="html/productos.html"">productos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="site-nav-link" href="html/eventos.html">eventos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="site-nav-link" href="html/contacto.html"">contacto</a>
+                </li>
+            </ul>
+            <div class="ig"><i class="fa3 fa-brands fa-instagram fa-xl" href="https://www.instagram.com/d_volcafe/"></i></div>
+        </div>
+            <i class="fa2 fa-solid fa-bars fa-3x" onclick="showMenu()"></i>
+        </div>
+        </nav>
+         </div>
+</header>
+    <!--Header final-->
+
+    <!--Main inicio-->
+<main class="main-content">
+    <div class="site-content">
+        <div class="header-contenido">
+            <div class="texto-img">
+                <h1>Tu momento</h1>
+            </div>
+            <div id="header-img">
+                <img class="imagen1" src="image/cafe1.webp" style="width: 100%;">
+            </div>
+           
+        </div>
+    <div class="contenido-cont">
+        <div class="cont-imagen">
+                <img class="bienvenidos" src="image/54454a6d5a6d704c566c5a774e6c464b5a444a4d614739705331687151543039.jpg" alt="Volcán Villarrica">    
+        </div>
+        <div class="contenido_texto">
+            <h3>D'Volcanes Café</h3>
+            <p>Experiencias sensoriales diferentes. Encuentra la experiencia que más te acomode, comienza a tomar un buen café de especialidad y vive Tu Momento</p>
+            <p>D'Volcanes Café busca día a día lograr la máxima calidad, tanto para quienes disfrutan de un café en casa, como para quienes se lo sirven en alguna de nuestras cafeterías amigas.
+                Con el tiempo, hemos posicionado nuestra marca, gracias al interés de aquellas personas preocupadas por la calidad de lo que consumen o entregan a sus clientes; 
+                y hemos logrado llevar granos de café de especialidad a cada uno de los rincones de Chile.</p>
+        </div>
+    </div>
+    </div>
+</main>
+    <!--Main final-->
+
+    <!--Footer inicio-->
+    <footer class="main-footer">
+        <div class="footer-completo">
+            <div class="footer-logo">
+                <a class="site-logo" href="index.html">
+                    <img class="footer-site-logo" src="image/logo1.png" alt="D' Volcafe Inicio">    
+                </a>
+            </div>
+            <nav class="site-footer-nav">
+                <ul class="site-footer-nav-menu">
+                    <li class="nav-footer-item">
+                        <a class="site-nav-link" href="index.html">inicio</a> 
+                    </li>
+                    <li class="nav-footer-item">
+                        <a class="site-nav-link" href="html/nosotros.html">nosotros</a>
+                    </li>
+                    <li class="nav-footer-item">
+                        <a class="site-nav-link" href="html/productos.html">productos</a>
+                    </li>
+                    <li class="nav-footer-item">
+                        <a class="site-nav-link" href="html/eventos.html">eventos</a>
+                    </li>
+                    <li class="nav-footer-item">
+                        <a class="site-nav-link" href="html/contacto.html">contacto</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="footer-rrss">
+                <a class="ig-icon" href="https://www.instagram.com/d_volcafe/" class="w3-bar-item w3-button"><i class="fa-brands fa-instagram fa-2xl"></i></a>
+            </div>
+            </div>
+        </div>
+        </div>
+        </footer>
+         <!--Footer final-->
+        
+         <!--JavaScript Menu-->
+         <script>
+
+            var navLinks = document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-400px";
+            }
+         </script>
+
+<script src="index.js"></script>
+</body>
+</html>
